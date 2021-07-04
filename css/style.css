@@ -55,11 +55,14 @@ body {
   display: block;
   text-align: center;
   width: fit-content;
+  margin-left: 465px;
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
   color: white;
   background-color: grey;
   font-size: 2rem;
   padding: 15px 15px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border: 3px solid grey;
   border-radius: 30px;
   transition: 0.5s ease all;
@@ -71,10 +74,11 @@ body {
 
 .after_text {
   font-family: "Otomanopee One", sans-serif;
-  color: #41484b;
+  color: white;
   font-size: 20px;
   padding: 15px 10px;
   margin-left: 80px;
+  margin-top: 10px;
   width: fit-content;
   border: 3px solid #fdc76e;
   text-transform: uppercase;
@@ -114,19 +118,26 @@ body {
 }
 
 .feature-box {
-  padding: 20px;
+  /* padding: 20px; */
+}
+.feature-box ol li {
+  font-size: 20px;
+  text-align: start;
+  color: white;
 }
 
 .feature-box h1 {
   font-size: 35px;
   text-transform: uppercase;
   font-weight: 600;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+  color: white;
 }
 
 .feature-box p {
-  font-size: 25px;
+  font-size: 15px;
   text-align: start;
+  color: white;
 }
 
 /* Portfolio */
