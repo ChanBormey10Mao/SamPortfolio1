@@ -84,7 +84,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .mobile-reverse {
     display: flex;
     flex-flow: column-reverse;
