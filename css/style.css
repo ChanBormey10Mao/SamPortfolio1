@@ -84,6 +84,13 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .mobile-reverse {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
 .header-text h1 {
   font-size: 60px;
   color: #ffffff;
